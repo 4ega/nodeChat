@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  div.popupWrapper.shadow
+    form(method="POST")
+      h3 Welcome!
+      p= message
+      input#userNameInput.shadow(name="userName", type="text", placeholder="login")
+      input#passwordInput.shadow(name="password", type="password", placeholder="password")
+      a(href="/registration") Register
+      input#login.shadow(type="submit", value="login")

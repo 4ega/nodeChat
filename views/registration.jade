@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div.regFormWrapper
+    h3= message
+    form(method="POST")
+      p Your name
+      input.shadow(name="regLogin", type="text")
+      p Your password
+      input.shadow(name="regPass", type="password")
+      p Repeat your password
+      input.shadow(name="regPassRep", type="password")
+      input(type="submit")
+    a(href="/") Back

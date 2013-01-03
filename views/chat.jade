@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  div.wrapper
+    h1 BEST NODE.JS CHAT EVER!
+    article#log
+    aside
+      h3
+        span#counter
+        span  Dude's
+      div#dudesWrapper
+    div.inputWrapperd
+      input#input-name.depth(type="text", placeholder="Ваше имя", readonly, value=user)
+      input#input.depth(type="text", placeholder="сообщение")
+      button#submit SEND
+  script(src="/socket.io/socket.io.js")
+  script(src="/javascripts/socket.js")

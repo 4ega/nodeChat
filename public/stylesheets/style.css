@@ -1,0 +1,170 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../images/bg.png);
+	color: #d2d8ba;
+	font-family: 'Ubuntu Mono', sans-serif;
+}
+.popupWrapper, .regFormWrapper{
+	width: 200px;
+	height: 210px;
+	border-radius: 20px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -130px;
+	margin-left: -120px;
+	padding: 20px;
+	background: url(../images/white_carbonfiber.png);
+}
+	.popupWrapper h3, .regFormWrapper h3{
+		margin: 0 0 10px 0;
+		padding: 0;
+		text-align: center;
+		color: #222;
+		text-shadow: 1px 1px 0 rgba(50, 50, 50, 0.4);
+	}
+	.popupWrapper p{
+		margin: 0 0 15px 0;
+		color: #333;
+		text-shadow: 1px 1px 0 rgba(50, 50, 50, 0.4);
+	}
+	.popupWrapper input[type="password"],
+	.popupWrapper input[type="text"],
+    .regFormWrapper input{
+		width: 180px;
+		margin:0 0 10px 0;
+		padding: 10px;
+		border-radius: 10px;
+		border: none;
+		font: bold 16px Consolas;
+	}
+	div.popupWrapper input[type="submit"]{
+		margin: 3px 0 0 60px;
+	}
+	div.popupWrapper input[type="submit"]:active{
+		margin-top: 9px;
+	}
+.regFormWrapper input[type="text"], .regFormWrapper input[type="password"]{
+	width: 280px;
+	}
+	.regFormWrapper p{
+		margin: 0 0 10px 0
+		}
+.wrapper{
+	width: 960px;
+	min-height: 100%;
+	margin: auto;
+	position: relative;
+	background: #33342d;
+}
+h1{
+	margin: 0;
+	padding: 10px 0;
+	font: bold 60px Consolas;
+	text-align: center;
+}
+h1{
+	background-image: linear-gradient(top, rgba(70,72,62,255) 37%, rgba(51,52,45,255) 79%, rgba(32,32,28,255) 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.3663230081132, rgba(70,72,62,255)), color-stop(0.7850833, rgba(51,52,45,255)), color-stop(1, rgba(32,32,28,255)));
+	background-image: -moz-linear-gradient(top, rgba(70,72,62,255) 37%, rgba(51,52,45,255) 79%, rgba(32,32,28,255) 100%);
+	background-image: -o-linear-gradient(top, rgba(70,72,62,255) 37%, rgba(51,52,45,255) 79%, rgba(32,32,28,255) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#46483e', endColorstr='#33342d'endColorstr='#20201c');}
+.inputWrapperd{
+	background-image: linear-gradient(top, rgba(32,32,28,255) 0%, rgba(51,52,45,255) 22%, rgba(70,72,62,255) 99%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(32,32,28,255)), color-stop(0.2213542, rgba(51,52,45,255)), color-stop(0.9939640156229801, rgba(70,72,62,255)));
+	background-image: -moz-linear-gradient(top, rgba(32,32,28,255) 0%, rgba(51,52,45,255) 22%, rgba(70,72,62,255) 99%);
+	background-image: -o-linear-gradient(top, rgba(32,32,28,255) 0%, rgba(51,52,45,255) 22%, rgba(70,72,62,255) 99%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#20201c', endColorstr='#33342d'endColorstr='#46483e');
+}
+.name{
+	font-weight: bold;
+	color: pink;
+}
+#log{
+	float: left;
+	width: 760px;
+	padding: 0 20px 100px
+}
+#log p{
+	margin: 0;
+	padding: 4px 0;
+}
+aside{
+	width: 160px;
+	float: left;
+}
+.inputWrapperd{
+	position: fixed;
+	bottom: 0px;
+	width: 930px;
+	height: 100px;
+	padding-left: 30px;
+}
+.depth {
+	display: block;
+	float: left;
+	margin: 20px 10px 0 0;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 20px;
+	background: linear-gradient(#eee, #fff);
+	transition: all 0.3s ease-out;
+	box-shadow: 
+		inset 0 1px 4px rgba(0,0,0,0.4);
+	padding: 5px;
+	color: #555;
+	font: 16px Consolas;
+}
+ 
+.depth:focus {
+	outline: none;
+	background-position: 0 -1.7em;
+}
+#input {
+	width: 600px;
+}
+#input-name{
+	text-align: center;
+}
+.popupWrapper input[type="submit"],
+#submit{
+	display: inline-block;
+	margin: 20px 10px 0 0;
+	padding: 5px 15px;
+	background: #88c04a;
+	border: 1px solid rgba(0,0,0,0.15);
+	border-radius: 20px;
+	transition: all 0.1s ease-out;
+	cursor: pointer;
+	text-decoration: none;
+	text-shadow: 0 1px rgba(255,255,255,0.7);
+	font: bold 16px Consolas;
+}
+.shadow{
+	box-shadow: 
+		inset 0 1px 0 rgba(255,255,255,0.5), 
+		0 2px 2px rgba(0,0,0,0.3), 
+		0 0 4px 1px rgba(0,0,0,0.2); 
+	/* Font styles */
+	box-shadow: 
+		inset 0 3px 2px rgba(255,255,255,.22), 
+		inset 0 -3px 2px rgba(0,0,0,.17), 
+		inset 0 20px 10px rgba(255,255,255,.12), 
+		0 0 4px 1px rgba(0,0,0,.1), 
+		0 3px 2px rgba(0,0,0,.2);
+}
+.regFormWrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 500px;
+    margin: -250px 0 0 -150px;
+	background: url(../images/white_carbonfiber.png);
+}
+    .regFormWrapper p{
+        color: #333;
+        }
